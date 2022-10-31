@@ -1,0 +1,749 @@
+/* kontenFooter */
+.kontenFooter .itemFooter1 {
+    padding-top: 50px;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid gray;
+}
+
+.itemFooter1 .AboutUs {
+    margin-top: 50px;
+    color: #fff;
+}
+
+.AboutUs > h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+.AboutUs > p {
+    margin-top: 25px;
+    margin-right: 10px;
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.AboutUs .socialIcon {
+    display: flex;
+    margin-top: 35px;
+}
+
+.hoverIcon a i:hover {
+    color: rgb(97, 97, 240);
+}
+
+.socialIcon .fb a {
+    font-size: 15px;
+    background: rgb(8, 8, 170);
+    color: #fff;
+    padding: 7px 12px;
+    border-radius: 99px;
+    margin-left: 0px;
+}
+.socialIcon .twet a {
+    font-size: 15px;
+    background: rgb(85, 149, 232);
+    color: #fff;
+    padding: 7px 9px;
+    border-radius: 99px;
+    margin-left: 7px;
+}
+.socialIcon .yt a {
+    font-size: 15px;
+    background: rgb(231, 76, 76);
+    color: #fff;
+    padding: 7px 8px;
+    border-radius: 99px;
+    margin-left: 7px;
+}
+.socialIcon .ig a {
+    font-size: 15px;
+    background: rgb(122, 66, 243);
+    color: #fff;
+    padding: 7px 9px;
+    border-radius: 99px;
+    margin-left: 7px;
+}
+.socialIcon .gPlus a {
+    font-size: 15px;
+    background: rgb(251, 119, 119);
+    color: #fff;
+    padding: 7px 7px;
+    border-radius: 99px;
+    margin-left: 7px;
+}
+
+.itemFooter1 .tags {
+    margin-top: 90px;
+    color: #fff;
+    position: relative;
+}
+.tags > h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.itemTags {
+    margin-top: 40px;
+}
+
+.tagsHover a:hover {
+    background-color: blue;
+}
+.itemTags .Tags1 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags2 a {
+    position: absolute;
+    margin-left: 125px;
+    top: 61px;
+    color: #fff;
+    z-index: 1;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags3 {
+    margin-top: 25px;
+}
+.itemTags .Tags3 a {
+    position: absolute;
+    margin-left: 201px;
+    top: 61px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags4 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags5 a {
+    position: absolute;
+    margin-left: 72px;
+    top: 105px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags6 a {
+    position: absolute;
+    margin-left: 150px;
+    top: 105px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags7 {
+    margin-top: 25px;
+}
+.itemTags .Tags7 a {
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags8 a {
+    position: absolute;
+    margin-left: 91px;
+    top: 149px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags9 a {
+    position: absolute;
+    margin-left: 222px;
+    top: 149px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags10 {
+    margin-top: 25px;
+}
+.itemTags .Tags10 a {
+    color: #fff;
+    margin-top: 19px;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.itemTags .Tags11 a {
+    position: absolute;
+    margin-left: 77px;
+    top: 193px;
+    color: #fff;
+    text-decoration: none;
+    padding: 7px 13px;
+    border: 1px solid rgb(121, 121, 121);
+}
+
+.contact {
+    margin-top: 90px;
+    color: #fff;
+}
+.contact h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.contact .alamat {
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+}
+.contact .alamat p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 15px;
+    margin-top: 15px;
+}
+
+.contact .noHp {
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+}
+.contact .noHp p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.contact .email {
+    display: flex;
+    align-items: center;
+}
+.email .detailEmail {
+    line-height: 25px;
+    margin-top: 24px;
+}
+.email .detailEmail p {
+    font-size: 17px;
+    font-weight: 300;
+    margin-left: 15px;
+}
+
+.newsFooter {
+    margin-top: 80px;
+    padding-bottom: 70px;
+    color: #fff;
+}
+.newsFooter h3 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.cardNewsFooter {
+    margin-top: 25px;
+    display: flex;
+}
+
+.cardNewsFooter .imgcardNewsFooter {
+    width: 81px;
+    height: 66px;
+    overflow: hidden;
+    cursor: pointer;
+    border-radius: 7px;
+}
+.imgcardNewsFooter img {
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.imgcardNewsFooter img:hover {
+    transform: scale(1.1);
+}
+
+.descCardNewsFooter {
+    margin-left: 9px;
+}
+.descCardNewsFooter .tglImgNewsFooter {
+    display: flex;
+    align-items: center;
+    font-size: 13px;
+}
+.tglImgNewsFooter > p {
+    margin-left: 7px;
+    font-size: 15px;
+}
+
+.descCardNewsFooter > h3 {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 21px;
+    margin-top: 6px;
+}
+
+.itemFooter2 .listItemFooter2 {
+    position: relative;
+    padding-bottom: 66px;
+}
+.batasList {
+    background: gray;
+    width: 2px;
+    height: 17px;
+    margin-left: 10px;
+}
+
+.listItemFooter2 .listHover a:hover {
+    color: blue;
+}
+
+.listItemFooter2 .detailList1 {
+    display: flex;
+    position: absolute;
+    margin-left: 40px;
+}
+.listItemFooter2 .detailList1 a {
+    text-decoration: none;
+    color: #fff;
+}
+.listItemFooter2 .detailList2 {
+    position: absolute;
+    display: flex;
+    margin-left: 111px;
+}
+.listItemFooter2 .detailList2 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.listItemFooter2 .detailList3 {
+    display: flex;
+    position: absolute;
+    margin-left: 66px;
+    margin-top: 30px;
+}
+.listItemFooter2 .detailList3 a {
+    text-decoration: none;
+    color: #fff;
+}
+.listItemFooter2 .detailList4 {
+    position: absolute;
+    margin-left: 186px;
+    margin-top: 30px;
+}
+.listItemFooter2 .detailList4 a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.itemFooter2 .copyRight {
+    text-align: center;
+    color: #fff;
+    padding-bottom: 14px;
+}
+.copyRight small {
+    font-size: 16px;
+    font-weight: 100;
+}
+
+/* responsife footer*/
+@media screen and (min-width: 768px) {
+    .kontenFooter .itemFooter1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: 30px;
+    }
+
+    .itemFooter1 .AboutUs {
+        margin-left: 15px;
+    }
+
+    .itemFooter1 .tags {
+        margin-left: 15px;
+        margin-top: 50px;
+    }
+
+    .itemTags .Tags7 a {
+        position: absolute;
+        margin-left: 247px;
+        top: 105px;
+        color: #fff;
+        padding: 7px 9px;
+    }
+
+    .itemTags .Tags8 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 149px;
+        color: #fff;
+    }
+
+    .itemTags .Tags9 a {
+        position: absolute;
+        margin-left: 135px;
+        top: 149px;
+        color: #fff;
+    }
+
+    .itemTags .Tags10 a {
+        color: #fff;
+        margin-top: 19px;
+        margin-left: 213px;
+    }
+
+    .itemTags .Tags11 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 193px;
+        color: #fff;
+    }
+    .itemFooter1 .contact {
+        margin-top: 80px;
+        color: #fff;
+        margin-left: 15px;
+    }
+
+    .itemFooter1 .newsFooter {
+        margin-left: 15px;
+    }
+
+    .itemFooter2 .listItemFooter2 {
+        position: relative;
+        padding-left: 112px;
+        padding-bottom: 36px;
+    }
+    .listItemFooter2 .detailList3 {
+        display: flex;
+        position: absolute;
+        margin-left: 281px;
+        margin-top: 0;
+    }
+    .listItemFooter2 .detailList4 {
+        position: absolute;
+        margin-left: 401px;
+        margin-top: 0px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .kontenFooter .itemFooter1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px 30px 50px;
+        padding-bottom: 90px;
+        padding-top: 0px;
+    }
+    .itemFooter1 .AboutUs {
+        margin-top: 80px;
+    }
+    .itemFooter1 .AboutUs p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .itemFooter1 .tags {
+        margin-top: 80px;
+    }
+    .itemTags .Tags2 a {
+        position: absolute;
+        margin-left: 125px;
+        top: 61px;
+    }
+    .itemTags .Tags3 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 105px;
+    }
+    .itemTags .Tags4 a {
+        position: absolute;
+        margin-left: 65px;
+        top: 105px;
+    }
+    .itemTags .Tags5 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 147px;
+    }
+    .itemTags .Tags6 a {
+        position: absolute;
+        margin-left: 77px;
+        top: 147px;
+    }
+    .itemTags .Tags7 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 189px;
+    }
+    .itemTags .Tags8 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 232px;
+    }
+    .itemTags .Tags9 a {
+        position: absolute;
+        margin-left: 135px;
+        top: 232px;
+    }
+    .itemTags .Tags10 a {
+        position: absolute;
+        margin-left: 0px;
+        margin-top: 0px;
+        top: 275px;
+    }
+    .itemTags .Tags11 a {
+        position: absolute;
+        margin-left: 78px;
+        top: 275px;
+    }
+    .itemFooter1 .contact {
+        margin-top: 80px;
+        color: #fff;
+        margin-left: 15px;
+    }
+
+    .itemFooter2 .listItemFooter2 {
+        position: relative;
+        padding-left: 239px;
+        padding-bottom: 36px;
+    }
+
+    .itemFooter2 .copyRight {
+        text-align: center;
+        color: #fff;
+        padding-bottom: 32px;
+    }
+}
+
+/* responsife laptop kita */
+@media screen and (min-width: 1366px) {
+    .kontenFooter .itemFooter1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0px 105px 30px;
+        padding-bottom: 65px;
+    }
+    .itemFooter1 .AboutUs {
+        margin-top: 80px;
+    }
+    .itemFooter1 .AboutUs p {
+        font-size: 14px;
+        font-weight: 300;
+    }
+
+    .itemFooter1 .tags {
+        margin-top: 80px;
+    }
+
+    .itemTags .Tags2 a {
+        position: absolute;
+        margin-left: 125px;
+        top: 61px;
+    }
+    .itemTags .Tags3 a {
+        position: absolute;
+        margin-left: 201px;
+        top: 61px;
+    }
+    .itemTags .Tags4 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 109px;
+    }
+    .itemTags .Tags5 a {
+        position: absolute;
+        margin-left: 73px;
+        top: 109px;
+    }
+    .itemTags .Tags6 a {
+        position: absolute;
+        margin-left: 150px;
+        top: 109px;
+    }
+    .itemTags .Tags7 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 155px;
+    }
+    .itemTags .Tags8 a {
+        position: absolute;
+        margin-left: 85px;
+        top: 155px;
+    }
+    .itemTags .Tags9 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 198px;
+    }
+    .itemTags .Tags10 a {
+        position: absolute;
+        margin-left: 77px;
+        margin-top: 0px;
+        top: 198px;
+    }
+    .itemTags .Tags11 a {
+        position: absolute;
+        margin-left: 156px;
+        top: 198px;
+    }
+    .itemFooter1 .contact {
+        margin-top: 80px;
+        color: #fff;
+        margin-left: 15px;
+    }
+
+    .itemFooter2 .listItemFooter2 {
+        position: relative;
+        padding-left: 409px;
+        padding-bottom: 36px;
+    }
+
+    .itemFooter2 .copyRight {
+        text-align: center;
+        color: #fff;
+        padding-bottom: 32px;
+    }
+}
+
+/* responsife for full hd */
+@media screen and (min-width: 1920px) {
+    .kontenFooter .itemFooter1 {
+        padding: 88px 140px;
+        margin: 0px 0px 30px;
+    }
+    .itemFooter1 .AboutUs h3 {
+        font-size: 30px;
+    }
+    .itemFooter1 .AboutUs p {
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .itemFooter1 .tags h3 {
+        font-size: 30px;
+    }
+    .itemTags {
+        margin-top: 35px;
+    }
+    .tagsHover > a {
+        font-size: 19px;
+        font-weight: 300;
+        padding: 8px 12px;
+    }
+
+    .itemTags .Tags2 a {
+        position: absolute;
+        margin-left: 143px;
+        top: 62px;
+    }
+    .itemTags .Tags3 a {
+        position: absolute;
+        margin-left: 227px;
+        top: 62px;
+    }
+    .itemTags .Tags4 a {
+        position: absolute;
+        margin-left: 297px;
+        top: 62px;
+    }
+    .itemTags .Tags5 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 109px;
+    }
+    .itemTags .Tags6 a {
+        position: absolute;
+        margin-left: 87px;
+        top: 109px;
+    }
+    .itemTags .Tags7 a {
+        position: absolute;
+        margin-left: 195px;
+        top: 109px;
+    }
+    .itemTags .Tags8 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 155px;
+    }
+    .itemTags .Tags9 a {
+        position: absolute;
+        margin-left: 153px;
+        top: 155px;
+    }
+    .itemTags .Tags10 a {
+        position: absolute;
+        margin-left: 239px;
+        margin-top: 0px;
+        top: 155px;
+    }
+    .itemTags .Tags11 a {
+        position: absolute;
+        margin-left: 0px;
+        top: 202px;
+    }
+
+    .itemFooter1 .contact h3 {
+        font-size: 30px;
+    }
+    .contact .alamat p {
+        font-size: 21px;
+        font-weight: 300;
+    }
+    .contact .noHp p {
+        font-size: 21px;
+        font-weight: 300;
+    }
+    .contact .email p {
+        font-size: 21px;
+        font-weight: 300;
+    }
+
+    .itemFooter1 .newsFooter > h3 {
+        font-size: 30px;
+    }
+    .cardNewsFooter .imgcardNewsFooter {
+        width: 123px;
+        height: 88px;
+    }
+    .descCardNewsFooter {
+        margin-left: 12px;
+    }
+    .descCardNewsFooter .tglImgNewsFooter {
+        font-size: 15px;
+    }
+    .tglImgNewsFooter > p {
+        margin-left: 7px;
+        font-size: 17px;
+    }
+    .descCardNewsFooter > h3 {
+        font-size: 18px;
+        margin-right: 32px;
+        font-weight: 500;
+        line-height: 28px;
+    }
+
+    .itemFooter2 .listItemFooter2 {
+        position: relative;
+        padding-left: 695px;
+        padding-bottom: 36px;
+    }
+    .itemFooter2 .copyRight {
+        text-align: center;
+        color: #fff;
+        padding-bottom: 32px;
+    }
+}

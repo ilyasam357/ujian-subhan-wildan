@@ -1,0 +1,292 @@
+/* header for mobile and tablet */
+
+.heading {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-around;
+}
+.header_list ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin-top: 12px;
+    margin-inline: 12px;
+}
+.header_list ul li a {
+    margin: 7px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 13px;
+    font-weight: 100;
+}
+.header_list ul li a:hover {
+    color: blue;
+}
+
+.header_icon {
+    display: flex;
+    align-items: center;
+    margin-inline: 62px;
+    margin-top: 12px;
+    justify-content: space-between;
+}
+
+.fb_icon a {
+    padding: 7px 11px;
+    background: rgb(4, 26, 170);
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+}
+.fb_icon a:hover {
+    background: #fff;
+    color: rgb(4, 26, 170);
+}
+
+.twet_icon a {
+    padding: 7px 8px;
+    background: rgb(99, 165, 246);
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+}
+.twet_icon a:hover {
+    background: #fff;
+    color: rgb(99, 165, 246);
+}
+
+.yt_icon a {
+    padding: 7px 8px;
+    background: rgb(247, 32, 32);
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+}
+.yt_icon a:hover {
+    background: #fff;
+    color: rgb(247, 32, 32);
+}
+
+.ig_icon a {
+    padding: 7px 9px;
+    background: rgb(96, 24, 220);
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+}
+.ig_icon a:hover {
+    background: #fff;
+    color: rgb(96, 24, 220);
+}
+
+.gplus_icon a {
+    padding: 7px 6px;
+    background: rgb(239, 81, 81);
+    color: #fff;
+    border-radius: 99px;
+    font-size: 16px;
+}
+.gplus_icon a:hover {
+    background: #fff;
+    color: rgb(239, 81, 81);
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    z-index: 2;
+    top: 0;
+    margin-top: 23px;
+    background: rgb(54, 54, 252);
+    padding: 19px 15px;
+}
+.nav_logo img {
+    width: 145px;
+    display: flex;
+}
+
+.nav_hamburger {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr;
+    justify-items: end;
+}
+.nav_hamburger .search {
+    text-decoration: none;
+    margin-right: 15px;
+    color: #fff;
+    font-size: 15px;
+}
+.nav_hamburger .bar {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+}
+
+/* item nav */
+#tesItemNav {
+    position: fixed;
+    top: 0px;
+    left: auto;
+    width: 320px;
+    height: 100vh;
+    z-index: 2;
+    background: rgba(0, 0, 0, 0.32);
+    display: none;
+}
+#tesItemNav .itemNav {
+    position: absolute;
+    width: 320px;
+    height: 100vh;
+    top: 0;
+    background: rgb(28, 28, 74);
+    z-index: 2;
+}
+
+.itemNav .close {
+    margin-top: 19px;
+    margin-left: 288px;
+}
+.itemNav .close a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-size: 21px;
+}
+#tesItemNav:target {
+    display: block;
+}
+
+.dropdown {
+    margin-left: 12px;
+    margin-right: 12px;
+    margin-top: 32px;
+}
+
+.btn_dropdown {
+    background: rgb(54, 54, 252);
+    padding: 5px 9px;
+    cursor: pointer;
+}
+.btn_dropdown a {
+    margin-left: 12px;
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+}
+.isi_dropdown {
+    display: none;
+}
+.isi_dropdown ul {
+    list-style: none;
+    margin-top: 5px;
+}
+.isi_dropdown ul li {
+    margin-top: 1px;
+    text-align: center;
+    background: rgb(54, 54, 252);
+    padding: 5px 9px;
+}
+.isi_dropdown ul li a {
+    color: #fff;
+    font-size: 21px;
+    text-decoration: none;
+}
+.dropdown:hover .isi_dropdown {
+    display: block;
+}
+
+/* heading for tablet */
+@media screen and (min-width: 768px) {
+    .heading {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .header_list ul {
+        margin-top: 35px;
+        margin-inline: 32px;
+    }
+    .header_list ul li {
+        font-size: 21px;
+    }
+
+    .header_icon {
+        display: flex;
+        align-items: center;
+        margin-top: 30px;
+        margin-inline: 32px;
+        justify-content: space-around;
+    }
+    .fb_icon a {
+        padding: 9px 14px;
+        font-size: 17px;
+    }
+    .twet_icon a {
+        padding: 9px 10px;
+        font-size: 17px;
+    }
+    .yt_icon a {
+        padding: 9px 9px;
+        font-size: 17px;
+    }
+    .ig_icon a {
+        padding: 9px 12px;
+        font-size: 17px;
+    }
+    .gplus_icon a {
+        padding: 9px 9px;
+        font-size: 17px;
+    }
+}
+
+/* nav for tablet */
+@media screen and (min-width: 768px) {
+    .nav {
+        margin-top: 32px;
+        background: rgb(54, 54, 252);
+        padding: 35px 15px;
+    }
+    .nav_logo img {
+        width: 202px;
+        margin-left: 20px;
+    }
+    .nav_hamburger {
+        margin-right: 25px;
+    }
+    #tesItemNav {
+        width: 768px;
+        height: 100vh;
+    }
+    #tesItemNav .itemNav {
+        width: 768px;
+        height: 100vh;
+    }
+    .itemNav .close {
+        margin-left: 392px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .heading {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .nav {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .heading {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1366px) {
+    .nav {
+        display: none;
+    }
+}
