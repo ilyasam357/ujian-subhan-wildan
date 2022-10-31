@@ -1170,8 +1170,16 @@
     }
     .cardImg1Kanan .btnCardImg1Kanan {
         display: flex;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-left: 20px;
+    }
+    .btnCardImg1Kanan .itemTglCard {
+       margin-top: 0px;
+       margin-left: 13px;
+    }
+    .btnCardImg1Kanan .itemTglCard p {
+        margin-left: 7px;
+        font-size: 14px;
     }
     .cardImg1Kanan .descCardImg1Kanan h3 {
         font-size: 17px;
