@@ -48,7 +48,7 @@
         cursor: pointer;
         border-radius: 7px;
     }
-    .imgHover .bgimg img{
+    .imgHover .bgimg img {
         width: 100%;
         height: 100%;
         display: flex;
@@ -314,7 +314,6 @@
     .cardImg2Konten6 .Img2Konten6 {
         width: 130px;
         height: 75px;
-
         border-radius: 8px;
     }
     .cardImg2Konten6 .descCardImgKonten6 {
@@ -454,5 +453,3 @@
         line-height: 25px;
     }
 }
-
-
