@@ -372,7 +372,7 @@
     }
 
     .tilteWhatnew .leftRight {
-        margin-right: 0px;
+        margin-right: 10px;
     }
 
     .whatNewKonten3 .imgWhatNew {
@@ -815,9 +815,7 @@
     }
     .headerDesktopTgl {
         display: flex;
-        color: #fff;
         margin-right: 21px;
-        font-family: "Rubik", sans-serif;
     }
     .headerDesktopTgl p {
         margin-left: 9px;
@@ -827,66 +825,36 @@
     .fbDesktopIcon a {
         padding: 9px 12px;
         margin: 9px;
-        background: rgb(4, 26, 170);
-        color: #fff;
         border-radius: 99px;
         font-size: 16px;
-    }
-    .fbDesktopIcon a:hover {
-        background: #fff;
-        color: rgb(4, 26, 170);
     }
 
     .twetDesktopIcon a {
         padding: 9px 9px;
         margin: 9px;
-        background: rgb(99, 165, 246);
-        color: #fff;
         border-radius: 99px;
         font-size: 16px;
-    }
-    .twetDesktopIcon a:hover {
-        background: #fff;
-        color: rgb(99, 165, 246);
     }
 
     .ytDesktopIcon a {
         padding: 9px 9px;
         margin: 9px;
-        background: rgb(247, 32, 32);
-        color: #fff;
         border-radius: 99px;
         font-size: 16px;
-    }
-    .ytDesktopIcon a:hover {
-        background: #fff;
-        color: rgb(247, 32, 32);
     }
 
     .igDesktopIcon a {
         padding: 9px 11px;
         margin: 9px;
-        background: rgb(96, 24, 220);
-        color: #fff;
         border-radius: 99px;
         font-size: 16px;
-    }
-    .igDesktopIcon a:hover {
-        background: #fff;
-        color: rgb(96, 24, 220);
     }
 
     .gplusDesktopIcon a {
         padding: 9px 8px;
         margin: 9px;
-        background: rgb(239, 81, 81);
-        color: #fff;
         border-radius: 99px;
         font-size: 16px;
-    }
-    .gplusDesktopIcon a:hover {
-        background: #fff;
-        color: rgb(239, 81, 81);
     }
 
     .headerDesktopLogo {
@@ -919,34 +887,15 @@
         padding: 10px 13px;
     }
 
-    /* .btnDropdownDesktop a:hover {
-        color: rgb(0, 0, 0);
-        background: #fff;
-    } */
     .isiDropdownDesktop {
         display: none;
         position: absolute;
         margin-top: 19px;
-        background: rgb(255, 255, 255);
         min-width: 10%;
-        box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-        z-index: 1;
     }
 
     .isiDropdownDesktop a {
-        display: block;
-        text-decoration: none;
-        color: rgb(125, 123, 123);
         padding: 9px 12px;
-    }
-
-    .isiDropdownDesktop a:hover {
-        background: rgb(45, 45, 242);
-        color: #fff;
-    }
-
-    .dropdownDesktop:hover .isiDropdownDesktop {
-        display: block;
     }
 
     .navInput {
@@ -956,16 +905,9 @@
     .navInput input[type="text"] {
         padding: 13px;
         font-size: 17px;
-        border: none;
-        outline: none;
-        background: rgb(1, 92, 141);
     }
     .navInput form {
-        background: rgb(1, 92, 141);
         width: 277px;
-    }
-    .navInput form i {
-        color: #fff;
     }
 }
 
@@ -974,8 +916,6 @@
 /*konten 1   for laptopkita */
 @media screen and (min-width: 1366px) {
     .konten1 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         padding: 0px 105px;
     }
     .itemImg {
@@ -1025,13 +965,8 @@
 /* konten 2 for laptopkita */
 @media screen and (min-width: 1366px) {
     .konten2 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 0px 105px 77px;
     }
-    /* .cardKonten{
-    margin: 13px;
-   } */
 
     .bgImgKonten2 {
         height: 190px;
@@ -1039,9 +974,6 @@
     }
     .imgHover {
         width: 260px;
-        background: gray;
-        overflow: hidden;
-        cursor: pointer;
         border-radius: 7px;
     }
 }
@@ -1049,8 +981,6 @@
 /* konten 3 for laptopkita */
 @media screen and (min-width: 1366px) {
     .konten3 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         padding: 77px 105px;
     }
     .titleTrandingNews .leftRight {
@@ -1080,8 +1010,6 @@
         margin-top: 20px;
         width: 100px;
         height: 67px;
-        overflow: hidden;
-        cursor: pointer;
         border-radius: 8px;
     }
     .cardLatestNews .descImgLatesNews {
@@ -1103,6 +1031,9 @@
     .konten3_whatnew_join .whatNewKonten3 {
         margin-top: 0px;
     }
+    .tilteWhatnew .leftRight {
+        margin-right: 15px;
+    }
     .whatNewKonten3 .imgWhatNew {
         margin-top: 30px;
         width: 260px;
@@ -1115,7 +1046,6 @@
     .joinUsKonten3 .cardMedsosJoinUs {
         display: flex;
         width: 260px;
-        border-bottom: 1px solid rgb(187, 186, 186);
     }
     .descIconJoinUs .iconPlusFb a {
         margin-left: 102px;
@@ -1150,8 +1080,6 @@
 /* konten 4 for laptopkita */
 @media screen and (min-width: 1366px) {
     .konten4 {
-        display: grid;
-        grid-template-columns: 1fr 1fr;
         padding-top: 70px;
         padding: 95px 105px;
     }
@@ -1163,7 +1091,6 @@
         margin-bottom: 14px;
     }
     .img1ItemKanan .cardImg1Kanan {
-        position: absolute;
         width: 230px;
         margin-top: 310px;
         height: 170px;
@@ -1174,8 +1101,8 @@
         margin-left: 20px;
     }
     .btnCardImg1Kanan .itemTglCard {
-       margin-top: 0px;
-       margin-left: 13px;
+        margin-top: 0px;
+        margin-left: 13px;
     }
     .btnCardImg1Kanan .itemTglCard p {
         margin-left: 7px;
@@ -1229,7 +1156,6 @@
     }
 
     .cardNewsItemKontenKiri {
-        background: #fff;
         margin-left: 15px;
         margin-top: 21px;
         border-radius: 9px;
@@ -1237,9 +1163,7 @@
         height: 545px;
     }
     .cardNewsItemKontenKiri .titleCardNews {
-        align-items: center;
         margin-top: 22px;
-        display: flex;
         margin-left: 15px;
         margin-bottom: 22px;
     }
@@ -1275,8 +1199,6 @@
 /* konten 5 for laptopkita */
 @media screen and (min-width: 1366px) {
     .konten5 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
         padding: 95px 105px;
     }
     .konten5 .imgKonten5 {
@@ -1286,14 +1208,10 @@
         margin-top: 30px;
         width: 260px;
         height: 200px;
-        overflow: hidden;
-        cursor: pointer;
         border-radius: 8px;
     }
 
     .imgKonten5 .descImgKonten5 {
-        position: absolute;
-        z-index: 1;
         margin-top: 120px;
         margin-left: 15px;
         margin-right: 17px;
@@ -1303,7 +1221,6 @@
     }
     .descImgKonten5 h3 {
         margin-top: 9px;
-        color: #fff;
         font-size: 16px;
         font-weight: 600;
     }
@@ -1316,26 +1233,19 @@
     }
     .ItemKonten6 {
         padding-bottom: 70px;
-        display: grid;
-        grid-template-columns: 1fr 1fr;
     }
 
     .img1Konten6 .itemImgKonten6 img {
         margin-top: 30px;
         width: 548px;
         height: 315px;
-        cursor: pointer;
         border-radius: 8px;
     }
 
     .img1Konten6 .btnImgKonten6 {
-        position: absolute;
-        z-index: 1;
         margin: 230px 15px;
     }
     .img1Konten6 .btnPlayImg1 {
-        position: absolute;
-        z-index: 1;
         margin: 177px 240px;
     }
     .btnPlayImg1 a {
@@ -1377,7 +1287,6 @@
         margin-left: 15px;
     }
     .descCardImgKonten6 > p {
-        /* margin-right: 0px; */
         font-weight: 600;
     }
 
@@ -1395,13 +1304,10 @@
 
 @media screen and (min-width: 1366px) {
     .konten7 {
-        display: grid;
-        grid-template-areas: "item2  item1  item1 item3 ";
         padding: 70px 105px;
     }
 
     .konten7 .imgKonten7 {
-        grid-area: item1;
         width: 548px;
         height: 320px;
         border-radius: 8px;
@@ -1424,7 +1330,6 @@
     }
 
     .newsKonten7 {
-        grid-area: item2;
         width: 260px;
         margin-top: 66px;
     }
@@ -1461,7 +1366,6 @@
     }
 
     .cardFormKonten7 {
-        grid-area: item3;
         width: 260px;
         height: 335px;
         margin-left: 0px;
@@ -1485,10 +1389,6 @@
         padding: 70px 105px;
     }
 
-    .konten8 .itemKonten8 {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
-    }
     .itemKonten8 .cardKonten8 {
         margin-top: 50px;
         margin-left: 15px;
