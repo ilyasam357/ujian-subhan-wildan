@@ -23,3 +23,47 @@ body {
     background: rgb(28, 28, 74);
     font-family: "Rubik", sans-serif;
 }
+
+.root .up {
+    background: blue;
+    padding: 9px;
+    position: fixed;
+    z-index: 2;
+    margin-left: 261px;
+    margin-top: 592px;
+}
+.up a {
+    color: #fff;
+}
+
+@media screen and (min-width: 768px) {
+    .root .up {
+        padding: 19px;
+        margin-left: 671px;
+        margin-top:739px;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .root .up {
+        margin-left: 917px;
+        margin-top:590px;
+    }
+}
+@media screen and (min-width: 1366px){
+    .root .up {
+        margin-left: 1274px;
+        margin-top:570px;
+    }
+}
+@media screen and (min-width: 1920px){
+    .root .up {
+        padding: 25px;
+        margin-left: 1804px;
+        margin-top:90px;
+    }
+    .up a{
+        font-size: 24px;
+        font-weight: 400;
+    }
+}
