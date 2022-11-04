@@ -200,18 +200,18 @@
         margin-left: auto;
         margin-right: 10px;
     }
-    .navInput input[type="text"] {
+    .navInput input[type="search"] {
         padding: 13px;
         font-size: 17px;
         border: none;
         outline: none;
         background: rgb(1, 92, 141);
     }
-    .navInput form {
+    .navInput {
         background: rgb(1, 92, 141);
         width: 277px;
     }
-    .navInput form i {
+    .navInput i {
         color: #fff;
     }
 }
@@ -901,13 +901,6 @@
     .navInput {
         margin-left: auto;
         margin-right: 12px;
-    }
-    .navInput input[type="text"] {
-        padding: 13px;
-        font-size: 17px;
-    }
-    .navInput form {
-        width: 277px;
     }
 }
 
